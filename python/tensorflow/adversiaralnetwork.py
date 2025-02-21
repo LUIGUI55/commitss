@@ -22,3 +22,4 @@ discriminator.add(LeakyReLU(alpha=0.2))
 discriminator.add(Dense(1, activation='sigmoid'))
 
 discriminator.compile(optimizer='adam', loss='binary_crossentropy')
+
