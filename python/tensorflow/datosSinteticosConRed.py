@@ -31,3 +31,4 @@ gan.add(discriminador)
 
 # Compilar el modelo GAN
 gan.compile(loss='binary_crossentropy', optimizer=Adam())
+
