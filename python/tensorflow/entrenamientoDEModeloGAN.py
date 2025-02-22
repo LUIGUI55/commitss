@@ -22,3 +22,4 @@ model = tf.keras.Sequential([
 # Compilar y entrenar
 model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 model.fit(X, y, epochs=50, batch_size=16)
+

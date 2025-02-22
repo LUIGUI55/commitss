@@ -35,3 +35,4 @@ gan.compile(optimizer='adam', loss='binary_crossentropy')
 import numpy as np
 noise = np.random.normal(0, 1, (1000, 100))
 fake_data = generator.predict(noise)
+

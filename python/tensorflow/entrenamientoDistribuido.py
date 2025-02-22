@@ -16,3 +16,4 @@ y = np.random.randint(0, 2, 1000)
 
 # Entrenar el modelo
 model.fit(X, y, epochs=10, batch_size=32)
+
