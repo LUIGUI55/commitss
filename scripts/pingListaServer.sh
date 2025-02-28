@@ -10,3 +10,4 @@ for SERVER in "${SERVERS[@]}"; do
         echo "$SERVER no está accesible."
     fi
 done
+
