@@ -8,4 +8,3 @@ class Vehiculo {
 }
 
 let coche = new Vehiculo("Toyota");
-
