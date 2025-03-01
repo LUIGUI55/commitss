@@ -12,3 +12,4 @@ class Animal {
 
 let perro = new Animal("Perro");
 perro.hacerSonido();
+
