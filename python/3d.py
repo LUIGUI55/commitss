@@ -20,3 +20,4 @@ ax.set_ylabel("Eje Y")
 ax.set_zlabel("Eje Z")
 
 plt.show()
+
