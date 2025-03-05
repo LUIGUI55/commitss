@@ -11,3 +11,4 @@ for SERVER in "${SERVERS[@]}"; do
     fi
 done
 
+
