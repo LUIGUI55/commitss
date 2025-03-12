@@ -10,3 +10,4 @@ class Perro extends Animal {
 
 let miPerro = new Perro("Firulais");
 miPerro.hacerSonido();
+
