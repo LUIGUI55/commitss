@@ -7,3 +7,4 @@ export function sumar(a: number, b: number): number {
 import { sumar } from './matematicas';
 
 console.log(sumar(2, 3)); // 5
+
