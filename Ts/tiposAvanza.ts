@@ -12,3 +12,4 @@ function extraer<T, U>(valor: T, tipo: U): Extractor<T, U> {
 
 let resultado = extraer("Hola", ""); // "Hola"
 console.log(resultado);
+
