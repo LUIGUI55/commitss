@@ -54,3 +54,4 @@ while true; do
     generate_report
     sleep 60
 done
+
