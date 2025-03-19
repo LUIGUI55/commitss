@@ -12,6 +12,5 @@ class Usuario {
         return `Hola, ${nombre}`;
     }
 }
-
 let usuario = new Usuario();
 usuario.saludar("Luis");

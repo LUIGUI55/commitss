@@ -6,4 +6,3 @@ while true; do
     echo "Uso de Memoria: $(free -m | awk 'NR==2{printf "Memoria usada: %sMB (%.2f%%)\n", $3, $3*100/$2 }')"
     sleep 5
 done
-
