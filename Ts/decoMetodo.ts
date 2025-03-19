@@ -18,3 +18,6 @@ class Calculadora {
 
 let calc = new Calculadora();
 console.log(calc.sumar(2, 3));
+
+
+
