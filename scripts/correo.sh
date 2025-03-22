@@ -7,3 +7,5 @@ BODY="Cuerpo del correo"
 
 echo "$BODY" | mail -s "$SUBJECT" "$TO"
 echo "Correo enviado a $TO"
+
+s
