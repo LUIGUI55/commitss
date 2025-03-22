@@ -8,4 +8,3 @@ if systemctl is-active --quiet "$SERVICE_NAME"; then
 else
     echo "El servicio $SERVICE_NAME no está activo."
 fi
-
