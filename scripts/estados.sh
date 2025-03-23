@@ -7,3 +7,4 @@ if systemctl is-active --quiet "$SERVICE_NAME"; then
     echo "El servicio $SERVICE_NAME está activo."
 else
     echo "El servicio $SERVICE_NAME no está activo."
+
