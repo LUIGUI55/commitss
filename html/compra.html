@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Carros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Compra de Carros</h1>
+    </header>
+    <main>
+        <p>Seleccione el carro que desea comprar y complete el formulario.</p>
+        <form>
+            <label for="carro">Seleccione un carro:</label>
+            <select id="carro" name="carro">
+                <option value="modelo1">Carro Modelo 1</option>
+                <option value="modelo2">Carro Modelo 2</option>
+                <option value="modelo3">Carro Modelo 3</option>
+            </select>
+            <br><br>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br><br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <button type="submit">Comprar</button>
+        </form>
+        <nav>
+            <ul>
+                <li><a href="index.html">Ir a Página Principal</a></li>
+                <li><a href="factura.html">Ir a Factura</a></li>
+            </ul>
+        </nav>
+    </main>
+</body>
+</html>
