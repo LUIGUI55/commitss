@@ -2,7 +2,7 @@
 
 # Configuración
 START_DATE="2025-03-25"
-END_DATE=$(date +%2025-%05-%08)  # Fecha actual
+END_DATE=$(date +%Y-%m-%d)  # Fecha actual
 DAYS_WITHOUT_CONTRIB=$(shuf -i 1-$(($(date -d "$END_DATE" "+%j") - $(date -d "$START_DATE" "+%j"))) -n 4)
 
 # Configurar el usuario de Git (reemplaza con tu usuario y email de GitHub)
